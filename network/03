@@ -1,0 +1,8 @@
+#Ex: Identify the MAC address of the Wi-Fi card
+#
+# networksetup is a configuration tool for network settings
+# I use -getmacaddress flag to display ethernet or wifi address
+# We can use for networksetup -getmacaddress  <service name (Wi-Fi or en1)> 
+# as we now right now that en1 is the Wireless
+# we cut -d ' ' spaces and we use the fields 1,2,3 no need for the 4th and 5th
+networksetup -getmacaddress Wi-Fi | cut -d ' ' -f 1,2,3

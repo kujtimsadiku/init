@@ -1,0 +1,7 @@
+# Ex: Figure out the PID of the SSHD service.
+#
+# we can get itt with couple options or even more =.
+# 1) you can run the command: systemctl status sshd | grep PID | cut -d ' ' -f 6 
+# 	you dont need to cut it because its readable without the cut but you can if you want just the PID to show
+# The second option
+# 2) cat /var/run/sshd.pid

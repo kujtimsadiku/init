@@ -1,0 +1,6 @@
+# Ex: Get the list of the network interfaces of the machine without displaying any detail
+# 		for these interfaces. Only the list of names.
+# ifconfig is configure network interface parameters
+# with -l flag may be used to list all available interfaces name without additional information (man ifconfig)
+#
+ifconfig -l

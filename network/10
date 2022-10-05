@@ -1,0 +1,6 @@
+#!/bin/bash
+# Ex: Identify the network devices between your computer and the who.int domain
+# 
+# The command used to identify devices between the computer
+# and the domain is
+traceroute who.int 

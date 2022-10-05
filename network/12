@@ -1,0 +1,8 @@
+# Ex: Find the IP that was assigned to you by dhcp server
+#
+# DHCP: Dynamic Host Configuration Protocol (DHCP) is a client/server protocol that 
+# 		automatically provides an Internet Protocol (IP) host with its IP address and other 
+# 		related configuration information such as the subnet mask and default gateway
+# To find out the IP address assigned by DHCP we use ipconfig
+# ipconfig view and control IP configuration state
+ipconfig getifaddr en0

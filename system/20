@@ -1,0 +1,6 @@
+# Ex: List all existing users on the VM
+#
+# compgen: llist several thing. compgen -c list all the commands you can run
+#
+# i will use -u because i just need users 
+compgen -u

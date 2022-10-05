@@ -1,0 +1,4 @@
+# Ex: Name the command that reboots the SSH service
+#
+# we need to use sudo to restart it
+sudo systemctl restart ssh.service

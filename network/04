@@ -1,0 +1,5 @@
+# Ex: Identifiy the default gateway in the routing table
+# netstat -nr shows network status and -n the numerical address and -r display the kernel routin tables
+# head display first lines of the file and -n is the count -c is the bytes
+# route -n get default | grep "gateway" | awk '{print $2}' Will work also
+netstat -nr | grep default | head -n 1

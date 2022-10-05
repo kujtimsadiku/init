@@ -1,0 +1,4 @@
+# Q: What file contains the local DNS entries?
+#
+# A: /etc/hosts/
+# you can check this with cat it cat /et/hosts/

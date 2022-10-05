@@ -1,0 +1,6 @@
+# Ex: Find the command that kills ssh service
+#
+# same way as we boot it.
+# also you can do it as this:
+# sudo service ssh stop
+sudo systemctl stop ssh

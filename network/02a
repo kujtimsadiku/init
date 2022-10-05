@@ -1,0 +1,6 @@
+#Ex: Identify and display the Ethernet interface characteristics:
+#A: Identify broadcast address
+#if you want to only get broadcast address use 
+#en1 also has a broadcast address but en1 is a wireless interface
+#ifconfig en0 | grep "broadcast" | awk '{print $6}'
+ifconfig en0

@@ -1,0 +1,32 @@
+# log in with the user that is root user or has sdo rights
+# 
+# after that open terminal and write "adduser <username>"
+# after that it will ask for a new password
+# retype the password
+# now you can add the informations.
+# its not necessery you can just press "ENTER"
+# but if you decide to add them you start with:
+# 1. Full Name[]
+# 2. Room Number[]
+# 3. Work Phone[]
+# 4. Home Phone[]
+# 5. Other[]
+# Then lastly it will is the confirmation. It will ask you "is the information correct? [Y/N]"
+# if not then you can start too do them again from the start 
+# if yes then the user is added
+# 
+# lets say if you want  to delete it from the root user or the with the one who has sudo rights
+# use "deluser <username>"
+# 
+# For ssh key if you dont have setup the ssh key
+# 1. ssh-keygen -t rsa
+#
+# ssd-copy-id lets us to use the locally available keys to authorise logins on a remote machine.
+# -i = for identity_file
+# id_ras.pub is usually found in ~/.ssh/id_rsa.pub
+# 2. ssh-copy-id -i <LOCATION/YOUR_id_rsa.pub> USERNAME@IP_ADDRESS_OF_THE_SERVER
+# 3. Type the password for your username
+# 4. ssh USERNAME@IP_ADDRESS_OF_THE_SERVER or ssh -p [PORTAL_NUMBER] USERNAME@IP_ADDRESS_OF_THE_SERVER
+# Thats it
+#
+# Only do from 1-3 if you havent setup the ssh key otherwise go on 4

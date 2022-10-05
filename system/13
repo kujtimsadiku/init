@@ -1,0 +1,6 @@
+# Ex. Name the command that find, in real time, currently running processes
+#
+#top: display linux processes
+#
+# the top command provides real time view of a running system.
+top

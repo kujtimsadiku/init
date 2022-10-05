@@ -1,0 +1,8 @@
+# Ex: Find the provider of who.int
+#
+# A: Cloudflare
+# How do i know? because i googled it and cloudflare is a real provider company
+# you can start by typing the host who.int and then you can take the IP address and type
+# whois (IP addres)
+# or faster way below
+# whois $(host who.int)

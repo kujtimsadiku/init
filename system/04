@@ -1,0 +1,4 @@
+# Ex: What command gives you the time since your system was last booted?
+#
+# command who shows who is logged in and who -b shows time of last boot
+who -b

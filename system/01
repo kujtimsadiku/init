@@ -1,0 +1,2 @@
+#you can find it two ways  1) the command lsb_release -a
+#the second option is to write cat /etc/issue

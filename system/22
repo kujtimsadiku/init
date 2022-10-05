@@ -1,0 +1,4 @@
+# Ex: Find the command that add a new local user
+#
+# WE need to use sudo for this one
+sudo adduser <username>

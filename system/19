@@ -1,0 +1,15 @@
+# Ex: List all services which are started at boot time and name this kind of services
+#
+# I would use systemctl  
+# i will add systemctl list-unit-files: this will list unit files installed on the system
+# and it will tell us the state it has. What we are we looking is the state to be enabled.
+#
+# now we add
+# --state=enabled
+# systemctl list-unit-files --state=enabled
+#
+# but its not over. We also want the services only.
+# so we add --type=service
+#
+# and just in case we put in the end -all to display all
+sudo systemctl list-unit-files --state=enabled --type=service -all

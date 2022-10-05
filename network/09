@@ -1,0 +1,4 @@
+# Ex: Find the external IP of 42.fr
+#
+# you do whois 42.fr or host 42.fr
+163.172.250.16

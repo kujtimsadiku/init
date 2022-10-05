@@ -1,0 +1,5 @@
+# The NAT which stands for network address translation 
+# it translate the private address to the public address
+#
+# traceroute who.int | grep "nat" | awk '{print $2,$3}'
+# answer is nat (10.60.1.1)

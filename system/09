@@ -1,0 +1,5 @@
+# Q: What command lets you know who is connected to the System?
+#
+# command users: prints the user names of users currently logged in to the current host
+#
+users

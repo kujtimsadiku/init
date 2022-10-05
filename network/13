@@ -1,0 +1,9 @@
+# Ex: Thanks to the previous question and the reverse DNS find the name of your host
+#
+# A: So we write in termina "ipconfig getpacket en0"
+# 	 getpacket we use to get all the information and we take the yiaddr
+# 	 then we use command host <yiaddress=(stands for your IP address or Your Internet address)>
+#	 
+#	 I would use it like this:
+#	 	whole command: host $(ipconfig getifaddr en0) | cut -d ' ' -f 5
+c2r6p13.hive.fi

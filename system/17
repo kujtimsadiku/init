@@ -1,0 +1,15 @@
+# Ex: Find the command that allows you to connect via ssh on the VM. (In parallel with
+# the graphic session)
+#
+# you can enter with the basic syntax:
+# ssh username@ip_address
+# this command uses the default portal which is 22
+#
+# if the remote server is using non-standard port you will need to specify the connection
+# ssh -p [PORTAL NUMBER] username@ip_address
+# my answer in this case will be the first one
+# just because i dont want to change any portals
+#
+# ps. if you think how to find easiest way the ip address
+# just type hostname -I
+ssh <USERNAME>@<IP_ADDRESS>

@@ -1,0 +1,4 @@
+# Ex: Run the ‘tail -f /var/log/syslog‘ command in background
+#
+# add '&' if you want to run it in the backround
+tail -f /var/log/syslog &

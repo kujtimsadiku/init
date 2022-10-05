@@ -1,0 +1,12 @@
+# Ex: Figure out the exact size of each folder of /var in a humanly understandable way
+#     followed by the path of it.
+#
+# we will use du which display the file space usage of certain file and path
+# we use du annd we add the flags -h -s
+# -h its same as in df "human-readable"
+# -s summarize it= so it will display only a total for each argument
+#
+# and ofc we use sudo
+# without the asteriks it will only show the var folder size.
+# ofc its not a problem but the ex. wants the exact size of "each folder" in /var
+sudo du -hs /var/*

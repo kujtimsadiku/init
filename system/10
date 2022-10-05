@@ -1,0 +1,6 @@
+# Q: Name the command that lists the partition tables of drives?
+#
+# fdisk manipulate idsk partition table
+# -l flag = list the partition tables. If no devices are given those mentioned 
+# in /prc/partitions (if the file exist also) are used
+fdisk -l

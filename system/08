@@ -1,0 +1,3 @@
+# Ex: What file contains the RSA keys of systems that are authorized to connect via SSH?
+#
+# it can be found ~/.ssh/authorized_keys

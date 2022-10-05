@@ -1,0 +1,9 @@
+# Ex: Find the command that kills the background command’s process
+#
+# First i woould use jobs -l. You can use only jobs but it wont provide proccess id
+# only [job id]
+#
+# with jobs -l we get the list same as with only jobs but we get the proccess id
+# -9 kills all processse that we can kill
+# So we use jobs -l then take the process id and then 
+kill -9 <process id>

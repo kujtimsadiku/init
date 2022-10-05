@@ -1,0 +1,9 @@
+# Ex: Find the command that list all packages
+#
+# Im nnot sure do we want to check what we have installed or
+# do we want to see all the packages that can be installed
+# 
+# this command shows all installed
+# but sudo apt list = shows all the packages that can be installed
+# But it might also crash the VM so i keep it simple and use "apt list --installed"
+sudo apt list --installed

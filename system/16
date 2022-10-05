@@ -1,0 +1,6 @@
+# EX: Find the service which makes it possible to run 
+# 		specific tasks following a regular schedule
+#
+# A: cron
+# cron: to run task you use cron and to edit them you use crontab(stands for cron table)
+#

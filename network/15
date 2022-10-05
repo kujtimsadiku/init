@@ -1,0 +1,5 @@
+# Ex: Make the intra.42.fr address reroute to 46.19.122.85
+#
+# i need to add the address 46.19.122.85 to the /etc/hosts 
+# sudo vim /etc/hosts add 46.19.122.85 intra.42.fr
+# but dont have the permission to do it

@@ -1,0 +1,8 @@
+# Ex: Name the command that displays the available space left and used on the system
+#     in an humanly understandable way
+#
+# df is a command to report file system disk space usage
+# and to use le optin -h it stands for human-readable 
+# alsso lets add --total
+# so it will show the total used memory and total on avail. memory
+df -h --total

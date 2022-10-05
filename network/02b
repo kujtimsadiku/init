@@ -1,0 +1,7 @@
+# Ex: Identify all IP adresses which are part of the same subnet
+#
+# We ping the broadcast address twice to find all the ip's connected in subnet
+# Same time we $(ifconfig $(ifconfig en0 | grep "broadcast" | awk '{print $6}') we take the address
+# what comes there.  $() is same as in math you do 2 * (1 + 1) it first reads the () $ as a variable name
+# After that we grep the 64 bytes and use awk to print the $4 
+ping -c 2 $(ifconfig en0 | grep "broadcast" | awk '{print $6}') | grep "64 bytes" | awk '{print $4}'

@@ -1,0 +1,4 @@
+# Ex: Query an external DNS server on the who.int domain name (ie.: google 8.8.8.8)
+#
+# I use nslookup, but i notice that host who.int 8.8.8.8 will give the same answer
+nslookup who.int 8.8.8.8

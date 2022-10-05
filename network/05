@@ -1,0 +1,4 @@
+# Ex: Identify the IP address of the DNS that responds to the following url: who.int
+# nslookup query internet name servers interactively
+# The Answer is: 104.17.113.188
+nslookup who.int

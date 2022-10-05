@@ -1,0 +1,5 @@
+#!/bin/bash
+# you can do sudo deluser -rf USERNAME
+# -r user account including home directory 
+# -f deletes user account with force removal of files
+sudo deluser USERNAME
